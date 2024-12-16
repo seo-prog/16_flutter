@@ -1,0 +1,33 @@
+name: chap06_permision_handler
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  image_picker: ^1.1.2 # 카메라 접근 관련
+  permission_handler: ^11.3.1 # 전반적인 권한
+  flutter_contacts: ^1.1.9+2 # 전화번호부 관련
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
